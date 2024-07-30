@@ -59,6 +59,7 @@ group :development do
   # gem "spring"
 
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
+  gem "letter_opener", "~> 1.10"
 end
 
 group :test do
@@ -70,3 +71,7 @@ end
 gem "kaminari", "~> 1.2"
 
 gem "simple_form", "~> 5.3"
+
+gem "devise", "~> 4.9"
+
+gem "pundit", "~> 2.3"
